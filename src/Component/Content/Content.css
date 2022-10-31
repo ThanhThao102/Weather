@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.content-box {
+  background-color: rgb(255, 240, 236);
+  flex-grow: 1;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: border-box;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+h1, h2 {
+  color: rgb(241, 148, 123);
+}
+
+h2 {
+  padding-top: 30px;
+}
+
+.right >span {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0px 0 40px 0;
+}
+
+.tem {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  border-bottom: 2px solid rgb(241, 148, 123);
+  padding: 25px 0 25px 0;
+}
+
+.tem .sun {
+  width: 100px;
+  height: 150px;
+  background-color: rgb(241, 148, 123);
+  margin-right: 25px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgb(72, 72, 74);
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.tem .sun p {
+  color: white;
+}
+
+.dayTitle {
+  padding: 25px 0 10px 0px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(241, 148, 123) ;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px 0 0px;
+}
+
+.boxDetail {
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-right: 90px;
+}
+
+.boxDetail span {
+  color: rgb(241, 148, 123) ;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.boxDetail p {
+  font-weight: 600;
+  font-size: 12px;
+}

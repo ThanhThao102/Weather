@@ -1,0 +1,59 @@
+.search-box {
+  background-color: rgb(241, 148, 123);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  height: 100%;
+}
+
+.input-box {
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  border: white
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.search-box .input-box p {
+  font-size:  12px;
+  color: white;
+  padding: 0 0 0 150px;
+}
+
+.hcm {
+  background-color: white;
+  padding: 15px;
+  width: 240px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.hcm > span {
+  display: flex;
+}
+.hcm > span p{
+  font-weight: 800;
+  font-size: 12px;
+  padding-left: 8px;
+}
+
+.hcm > p{
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 8px;
+}
+.hcm p span {
+  background-color: rgb(72, 72, 74);
+  color: white;
+  border-radius: 8px;
+  padding: 3px;
+}
